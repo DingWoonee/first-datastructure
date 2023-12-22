@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1_2_SelectionSort.cpp" />
     <ClCompile Include="First-DataStructure-honglab.cpp" />
+    <ClCompile Include="1_1_Swap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1_1_Swap.hpp" />
+    <ClInclude Include="1_2_SelectionSort.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

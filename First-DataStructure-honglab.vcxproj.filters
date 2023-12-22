@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\chapter1">
+      <UniqueIdentifier>{aa8dfbe6-527b-44ce-8605-26f258672319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter1">
+      <UniqueIdentifier>{71313e4a-71e6-4f95-af6d-6730d9dbb113}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="First-DataStructure-honglab.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1_1_Swap.cpp">
+      <Filter>소스 파일\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1_2_SelectionSort.cpp">
+      <Filter>소스 파일\chapter1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1_1_Swap.hpp">
+      <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="1_2_SelectionSort.hpp">
+      <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
