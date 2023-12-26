@@ -1,3 +1,5 @@
-﻿  1_2_SelectionSort.cpp
-C:\Users\Ding\Desktop\core concept\First-DataStructure-honglab\1_2_SelectionSort.cpp(101,7): warning C4101: 'min_index' :참조되지 않은 지역 변수입니다.
+﻿  1_4_InsertionSort.cpp
+  1_5_SequentialSearch.cpp
+  First-DataStructure-honglab.cpp
+  코드를 생성하고 있습니다...
   First-DataStructure-honglab.vcxproj -> C:\Users\Ding\Desktop\core concept\First-DataStructure-honglab\x64\Debug\First-DataStructure-honglab.exe

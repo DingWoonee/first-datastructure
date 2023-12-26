@@ -116,5 +116,54 @@ int exec_1_2() {
 		}
 	}
 
+	// 비교 횟수 세보기, 더 효율적인 방법은 없을까?
+	{
+		ofstream ofile("log.txt");
+		for (int size = 1; size < 1000; size++) {
+			int count = 0;
+			int* arr = new int[size];
+			for (int s = 0; s < size; s++) {
+				arr[s] = size - s;
+			}
+
+			int min_index;
+			for (int i = 0; i < size - 1; i++) {
+				min_index = i;
+				for (int j = i + 1; j < size; j++) {
+					count++;
+					if (arr[j] < arr[min_index])
+						min_index = j;
+				}
+				swap(arr[i], arr[min_index]);
+			}
+
+			//cout << size << ", " << count << endl;
+			ofile << size << ", " << count << endl;
+			//Print(arr, size);
+
+			delete[] arr;
+		}
+		ofile.close();
+	}
+
+	// 정렬의 안정성 확인(unstable)
+	// Element에서 val에 상관없이 key를 기준으로 정렬함.
+	// 여기서 key는 둘다 2이지만 값이 다른 두 요소의 순서가 바뀌었음.
+	// 이는 stable하지 않은 정렬임. 안정적인 정렬 알고리즘은 동일한 값을 가진 요소들 사이의 원래 순서를 변경하지 않는다.
+	{
+		Element arr[] = { {2, 'a'}, {2, 'b'}, {1, 'c'} };
+		int size = sizeof(arr) / sizeof(arr[0]);
+
+		int min_index;
+		for (int i = 0; i < size - 1; i++) {
+			min_index = i;
+			for (int j = i + 1; j < size; j++) {
+				if (arr[j].key < arr[min_index].key)
+					min_index = j;
+			}
+			swap(arr[i], arr[min_index]);
+		}
+	}
+
 	return 0;
 }

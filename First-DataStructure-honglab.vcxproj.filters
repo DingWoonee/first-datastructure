@@ -30,12 +30,30 @@
     <ClCompile Include="1_2_SelectionSort.cpp">
       <Filter>소스 파일\chapter1</Filter>
     </ClCompile>
+    <ClCompile Include="1_3_BubbleSort.cpp">
+      <Filter>소스 파일\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1_4_InsertionSort.cpp">
+      <Filter>소스 파일\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1_5_SequentialSearch.cpp">
+      <Filter>소스 파일\chapter1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1_1_Swap.hpp">
       <Filter>헤더 파일\chapter1</Filter>
     </ClInclude>
     <ClInclude Include="1_2_SelectionSort.hpp">
+      <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="1_3_BubbleSort.hpp">
+      <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="1_4_InsertionSort.hpp">
+      <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="1_5_SequentialSearch.hpp">
       <Filter>헤더 파일\chapter1</Filter>
     </ClInclude>
   </ItemGroup>

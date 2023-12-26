@@ -128,12 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1_2_SelectionSort.cpp" />
+    <ClCompile Include="1_3_BubbleSort.cpp" />
+    <ClCompile Include="1_4_InsertionSort.cpp" />
+    <ClCompile Include="1_5_SequentialSearch.cpp" />
     <ClCompile Include="First-DataStructure-honglab.cpp" />
     <ClCompile Include="1_1_Swap.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1_1_Swap.hpp" />
     <ClInclude Include="1_2_SelectionSort.hpp" />
+    <ClInclude Include="1_3_BubbleSort.hpp" />
+    <ClInclude Include="1_4_InsertionSort.hpp" />
+    <ClInclude Include="1_5_SequentialSearch.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
